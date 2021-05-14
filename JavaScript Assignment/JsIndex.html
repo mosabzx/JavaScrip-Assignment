@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Assignment</title>
+</head>
+<body>
+
+
+    <header><h1>JavaScript Assignment</h1></header>
+
+    <div  class="container" id="rotate">
+        <li>
+            Write a JavaScript program to rotate the string <span class="Mark">'lexicon'</span> in right direction by periodically removing one letter from
+            the end of the string and attaching it to the front.
+           
+        </li>
+        <br>
+        <div class="alignCenter">
+            <p>Click to  rotate "lexicon"</p>
+            <br>
+            <button onclick="rotate()">Rotate</button>
+
+            <p class="Mark" id="textRotation"></p>
+
+            <button onclick="stopRotate()">Stop rotate</button>
+        </div>
+
+        
+    </div>
+
+
+    <div class="container" id="random" >
+        <li>
+            Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input
+            a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise
+            display a message "Not matched".
+        
+        </li>
+        <br>
+        <div class="alignCenter">
+            <p>Click to get a random number between 1 - 10</p>
+            <button onclick="random()">Get random number!</button>
+            <p id='display' class="displayGuess"></p>
+            
+            <br>
+
+            <div id="hide" class="hide">
+
+             <p>Click on Guess to start</p>
+             <button onclick="guess()">Guess!</button>
+             <p id="guess" class="displayGuess"></p>
+
+            </div>
+            
+
+        </div>
+       
+    </div>
+
+    <div class="container" id="christDays">
+        <li>
+            Write a JavaScript program to calculate days left until next Christmas.
+        </li>
+        <br>
+        <div class="alignCenter">
+            <p>Click to check how many days left until Christmas</p>
+            <button onclick="Christmas()">Christmas</button>
+            <div id="date"></div>
+        </div>
+        
+    </div>
+
+
+    <div class="container" id="Pytext">
+        <li>
+            Write a JavaScript program to create a new string adding "Py" in front of a given string. If the given string begins
+            with "Py" then return the original string.
+        </li>
+        <br>
+        <div class="alignCenter">
+            <p>Please write Py in the field</p>
+            <input type="text"  id="textField" value="">
+            <button id="buttonPy" onclick="addingPy()">Check</button>
+            <div id="text"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container" id="to100">
+        <li>
+            Write a JavaScript program to find a value which is nearest to 100 from two different given integer values.
+        </li>
+        <br>
+        <div class="alignCenter" >
+            <p>Please fill in the fields the first number and second number to compare which one is nearest to 100.</p>
+
+            <div class="fields">
+                <input type="text" value="" id="num1" placeholder="First">
+                <br>
+                <input type="text" value="" id="num2" placeholder="Second">
+                <br>
+                <button onclick="closeTo100()">Result</button>
+                <div id="result"></div>
+
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        
+        (&copy;2021) Mosab Al Sherawy 
+    </footer>
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>

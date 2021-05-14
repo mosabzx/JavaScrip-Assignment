@@ -1,0 +1,123 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	color: black;
+	text-align: center;
+	font-size: x-large;
+	height: 60px;
+	padding: 10px;
+	background-color: orange;
+}
+button {
+	font-size: 12px;
+	padding: 8px;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	border-radius: 8px;
+	background-color: black;
+	color: orange;
+	cursor: pointer;
+}
+
+p {
+	margin: auto;
+}
+
+.container {
+	text-align: justify;
+	width: auto;
+	height: auto;
+	font-size: 16px;
+	padding: 8px;
+	background-color: azure;
+	padding-bottom: 12px;
+}
+.alignCenter {
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+#rotate {
+	background-color: rgb(109, 107, 107);
+	color: aliceblue;
+}
+.Mark {
+	font-weight: bold;
+	color: orange;
+	font-size: 20px;
+}
+
+#random {
+	background-color: darkslateblue;
+	color: darkturquoise;
+}
+
+.displayGuess {
+	color: orange;
+}
+
+.hide {
+	display: none;
+}
+
+#christDays {
+	background-color: #333;
+
+	color: blue;
+}
+#date {
+	color: orangered;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+.fields > input {
+	width: 8%;
+}
+
+#Pytext {
+	background-color: darkgreen;
+	color: lightskyblue;
+}
+#text {
+	color: whitesmoke;
+}
+
+#buttonPy {
+	background-color: lightskyblue;
+	color: darkgreen;
+}
+
+#to100 {
+	background-color: navy;
+	color: wheat;
+}
+
+#result {
+	color: red;
+}
+.numResult {
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer {
+	text-align: left;
+	font-style: italic;
+	font-family: "cursive", Lucida Handwriting;
+	font-size: small;
+	height: 20px;
+	width: auto;
+	padding-left: 10px;
+	padding-top: 19px;
+
+	background-color: black;
+	color: orange;
+}
